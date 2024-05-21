@@ -19,11 +19,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{ asset('assets/ecom/customer/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('assets/ecom/customer/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/ecom/customer/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/ecom/customer/lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    
+
     <link href="{{ asset('assets/ecom/customer/css/style.css') }}" rel="stylesheet">
 </head>
 
@@ -55,8 +55,8 @@
                         <a class="text-white px-3" href="">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a class="text-white pl-3" href="">
-                            <i class="fab fa-youtube"></i>
+                        <a class="text-white pl-3" href="addcart">
+                            <i class="fas fa-shopping-cart"></i>
                         </a>
                     </div>
                 </div>
@@ -78,15 +78,15 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="product.html" class="nav-item nav-link">Product</a>
+                        <a href="/" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">About</a>
+                        <a href="/product" class="nav-item nav-link">Product</a>
                     </div>
                     <a href="/" class="navbar-brand mx-5 d-none d-lg-block">
                         <h1 class="m-0 display-4 text-primary"><span class="text-secondary">i</span>CREAM</h1>
                     </a>
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="#" class="nav-item nav-link">Service</a>
                         <a href="/gallery" class="nav-item nav-link">Gallery</a>
                         <a href="/contact-us" class="nav-item nav-link">Contact</a>
                     </div>
@@ -95,7 +95,7 @@
         </div>
     </div>
     <!-- Navbar End -->
-        <!-- content here -->
+    <!-- content here -->
     @yield('content')
     <!-- Footer Start -->
     <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
@@ -107,10 +107,14 @@
                     </a>
                 </div>
                 <div class="col-12 mb-4">
-                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i
+                            class="fab fa-instagram"></i></a>
                 </div>
                 <div class="col-12 mt-2 mb-4">
                     <div class="row">
@@ -127,7 +131,8 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <p class="m-0">&copy; <a href="#">Domain</a>. All Rights Reserved. Designed by <a href="">HTML Codex</a>
+                    <p class="m-0">&copy; <a href="#">Domain</a>. All Rights Reserved. Developed by <a
+                            href="#">Piyush Parmar</a>
                     </p>
                 </div>
             </div>
